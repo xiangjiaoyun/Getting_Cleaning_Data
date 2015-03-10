@@ -7,4 +7,4 @@ Second, take “data” and “run_analysis.R” both in your RStudio working di
 Third, use source(“run_analysis.R”) command to run script.
 
 Finally, you will get two out files in your working directory. 
-	merged_data.txt&data_with_means.txt
+	step4_data.txt&step5_data.txt
