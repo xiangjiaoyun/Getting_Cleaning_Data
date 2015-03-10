@@ -4,18 +4,30 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 Here are explanation about variables:
 Read X_train.txt, y_train.txt and subject_train.txt store in trainData, trainable and trainSubject.
+
 Read X_test.txt, y_test.txt and subject_test.txt store in testData, testLable and testSubject.
+
 joinData = testData + trainDate.
+
 joinLabel = testLabel + trainLabel.
+
 joinSubject = testSubject + trainSubject.
-features.txt store in feature
+
+features.txt store in feature.
+
 activity_labels store in activity.
+
 cleanedData = joinSubject + joinLabel + joinData.
+
 
 Here are the steps for this project:
 	1.	Merges the training and the test sets to create one data set.
+	
 	2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
-	3.	Uses descriptive activity names to name the activities in the data set
+	
+	3.	Uses descriptive activity names to name the activities in the data set.
+	
 	4.	Appropriately labels the data set with descriptive variable names. 
+	
 	5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
